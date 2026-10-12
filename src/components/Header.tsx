@@ -27,7 +27,7 @@ export const Header: React.FC<Props> = ({ activeTab, setActiveTab, recordCount }
                 </span>
               </div>
               <p className="text-xs sm:text-sm text-amber-200 font-medium mt-0.5">
-                GV hướng dẫn: <strong className="text-white font-semibold">Đặng Thị Bích Hài</strong>
+                GV hướng dẫn: <strong className="text-white font-semibold">Đặng Thị Bích Hải</strong>
               </p>
             </div>
           </div>

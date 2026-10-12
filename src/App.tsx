@@ -153,7 +153,7 @@ export default function App() {
                 TRƯỜNG THPT TỊNH BIÊN
               </h1>
               <p className="text-xs sm:text-sm text-amber-200 font-medium">
-                GV hướng dẫn: <strong className="text-white font-semibold">Đặng Thị Bích Hài</strong>
+                GV hướng dẫn: <strong className="text-white font-semibold">Đặng Thị Bích Hải</strong>
               </p>
             </div>
           </div>
@@ -174,10 +174,10 @@ export default function App() {
         <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 sm:p-8 space-y-5">
           <div className="text-center space-y-1">
             <h2 className="text-xl sm:text-2xl font-black text-slate-800 tracking-tight">
-              TRA CỨU BÀI LÀM VĂN
+              TRA CỨU ĐỌC HIỂU TIỂU THUYẾT
             </h2>
             <p className="text-xs sm:text-sm text-slate-500">
-              Đề tham chiếu: <span className="font-medium text-red-800">Đoạn trích Số Đỏ (Vũ Trọng Phụng)</span>
+              Văn bản đọc hiểu: <span className="font-medium text-red-800">Đoạn trích tiểu thuyết Số Đỏ (Vũ Trọng Phụng)</span>
             </p>
           </div>
 
@@ -649,7 +649,7 @@ export default function App() {
                   Không tìm thấy bài làm của học sinh "{searchTerm}"
                 </h3>
                 <p className="text-xs text-slate-500 max-w-md mx-auto">
-                  Chưa có bài thi nào được chấm với tên này trong cơ sở dữ liệu của Trường THPT Tịnh Biên. Bạn có thể chọn tên từ danh sách gợi ý hoặc nhấp vào "Chấm bài mới" để thêm bài làm.
+                  Chưa có bài thi nào được chấm với tên này trong hệ thống. Bạn có thể chọn tên từ danh sách gợi ý hoặc nhấp vào "Chấm bài mới" để thêm bài làm.
                 </p>
                 <div className="pt-2">
                   <button
@@ -685,17 +685,14 @@ export default function App() {
         </div>
       )}
 
-      {/* School Footer */}
+      {/* Footer */}
       <footer className="bg-white border-t border-slate-200 py-6 text-center text-xs text-slate-500 mt-auto">
         <div className="max-w-4xl mx-auto px-4 space-y-1">
-          <p className="font-bold text-slate-800">
-            TRƯỜNG THPT TỊNH BIÊN
-          </p>
-          <p className="text-slate-600">
-            GV hướng dẫn: <strong>Đặng Thị Bích Hài</strong>
+          <p className="font-bold text-slate-800 uppercase">
+            TRA CỨU ĐỌC HIỂU TIỂU THUYẾT
           </p>
           <p className="text-[11px] text-slate-400 pt-1">
-            Hệ thống hỗ trợ tra cứu kết quả bài làm văn môn Ngữ văn THPT
+            Hệ thống hỗ trợ tra cứu kết quả bài làm đọc hiểu tiểu thuyết môn Ngữ văn
           </p>
         </div>
       </footer>

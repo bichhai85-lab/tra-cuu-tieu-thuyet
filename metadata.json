@@ -1,6 +1,6 @@
 {
-  "name": "Hệ thống Chấm điểm & Tra cứu Ngữ văn - THPT Tịnh Biên",
-  "description": "Hệ thống hỗ trợ chấm điểm và tra cứu bài làm văn học sinh THPT Tịnh Biên - GV hướng dẫn: Đặng Thị Bích Hài",
+  "name": "Tra cứu đọc hiểu tiểu thuyết",
+  "description": "Tra cứu đọc hiểu tiểu thuyết",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
